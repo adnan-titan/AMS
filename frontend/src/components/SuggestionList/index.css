@@ -1,0 +1,19 @@
+.list-suggestion {
+    width: 20%;
+    position: absolute;
+    background: white;
+    width: 20%;
+}
+
+.list-suggestion div li {
+    cursor: pointer;
+}
+
+.modify-list-suggestion {
+    margin-left: 42%;
+    width: 195px;
+    position: absolute;
+    background: white;
+    /* width: 20%; */
+    margin-top: -20px;
+}

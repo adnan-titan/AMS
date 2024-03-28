@@ -1,0 +1,168 @@
+.table-data {
+    position: relative;
+    /* background-color: ghostwhite;
+    display: flex;
+    width: 100%;
+    /* height: 48Px; */
+    /* flex-direction: column; */
+
+}
+
+.user-record-scroll {
+    height: calc(100vh - 152px);
+    /* overflow: scroll; */
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.table-data {
+    /* ;
+      margin:  auto;
+      padding: 20px;
+      
+      
+       */
+    /* max-width: 400px;*/
+    width: 100%;
+    position: absolute;
+    background-color: darkgray;
+
+    /* opacity: 0.8; */
+
+    border: 1px solid rgb(17, 103, 201);
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    padding: 20px;
+    margin: auto;
+
+}
+
+.my-button {
+    color: #370aca;
+    font-size: large;
+    padding: 10px;
+    /* background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; */
+    /* Transition on background-color property */
+}
+
+.my-button:hover {
+    color: #e80000;
+    /* New background color on hover */
+}
+
+thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.buttons {
+    width: 51%;
+    text-align: center;
+}
+
+.actionButtons {
+    width: 51%;
+}
+
+.table-tbody {
+    width: 100%;
+    height: calc(66vh - 45px);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.table-tbody::-webkit-scrollbar {
+    width: 0;
+}
+
+.page-success-message {
+    color: #137413;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    /* margin-left: 25%; */
+    text-align: center;
+}
+
+.popup-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+}
+
+.add-more {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.already-mac-added-popup {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.add-mac-go-back {
+    text-align: center;
+    font-size: x-large;
+}
+
+.mac-pop-yes-no {
+    display: flex;
+    justify-content: space-around;
+}
+
+.yes {
+    font-size: x-large;
+    color: darkgreen;
+}
+
+.no {
+    font-size: x-large;
+    color: rgb(177, 7, 50);
+}
+
+.filtersContainer select {
+    width: 30%;
+    height: 10%;
+    text-align: center;
+}
+
+.select-width {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+
+    border-radius: 8px;
+
+}
+
+.select-width:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* .select-width::after {
+    content: "";
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaLZVQDgljrVtunTYJtwhRc_beU6dmOEHpxw&usqp=CAU");
+    width: 10px;
+    height: 10px;
+} */
+
+.top-bar {
+    position: absolute;
+    margin-top: 19px;
+    justify-content: center;
+    display: flex;
+    color: black;
+    margin-left: 55%;
+}

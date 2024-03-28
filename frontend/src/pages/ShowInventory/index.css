@@ -1,0 +1,111 @@
+tr,
+td,
+table,
+thead {
+  border: 1px solid black;
+  /* margin: 10px */
+}
+
+th,
+td {
+  padding: 11px;
+  text-align: center
+}
+
+.filtersContainer {
+  display: flex;
+  width: 55%;
+
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.show-container {
+  /* ;
+    margin:  auto;
+    padding: 20px;
+    
+    
+     */
+  /* max-width: 400px;*/
+  width: 100%;
+  height: calc(100vh - 110px);
+  position: absolute;
+  background-color: darkgray;
+  border-radius: 50px;
+  /* opacity: 0.8; */
+  border-radius: 50px;
+  border: 1px solid rgb(17, 103, 201);
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  padding: 20px;
+  margin: auto;
+
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.show-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-login {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background-color: #45a049;
+}
+
+.select {
+  background-color: #45a049;
+
+}
+
+.input[type="date"] {
+  width: 170px;
+  height: 10%;
+  border-radius: 30px;
+}
+
+.record-scroll {
+  height: calc(100vh - 242px);
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.inventory-record {
+
+  margin-left: 41%;
+  font-size: xx-large;
+  margin-bottom: 1px;
+  font-weight: 700;
+
+}
+
+.showInventory-table-body {
+
+  width: 100%;
+  height: calc(66vh - 73px);
+  overflow: scroll;
+  overflow-x: hidden;
+}

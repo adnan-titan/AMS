@@ -1,0 +1,111 @@
+.wrapper select {
+    /* min-width: 100%; */
+    height: 38px;
+    position: absolute;
+}
+
+.centerWrapper {
+    margin-top: 45px;
+    position: absolute;
+}
+
+select {
+    width: 60%;
+    border-radius: 8px;
+}
+
+
+.text-field {
+
+    appearance: none;
+    /* width: 160px; */
+    background-color: #d9d9d9;
+    border-color: #6b7280;
+    /* border-width: 1px; */
+    /* border-radius: 0px; */
+    padding-top: 0.5rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    --tw-shadow: 0 0 #0000;
+    min-width: 160px;
+    height: 38px;
+    border-radius: 30px;
+    min-width: 160px;
+    height: 38px;
+    border-radius: 30px;
+}
+
+
+.form-div {
+    width: 677px;
+    /* height: calc(100vh - 100px); */
+    position: absolute;
+    background-color: #f2f2f2;
+    border-radius: 44px;
+    border: 1px solid rgb(17, 103, 201);
+    top: 506px;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    margin-top: -75px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    background: darkgray;
+}
+
+.form-display {
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    /* align-items: flex-end; */
+    justify-content: space-around;
+}
+
+.input-field {
+    min-width: 50%;
+}
+
+.input-scrolldown {
+    min-width: 50%;
+    border-radius: 30px;
+
+
+}
+
+.distribution-logo {
+    position: absolute;
+    margin-left: 28px;
+    margin-top: 20px;
+
+}
+
+.submit-button {
+    margin-top: 36px;
+    margin-left: 36%;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 21px;
+    font-size: 16px;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer
+}
+
+.distribution {
+
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.details {
+    position: relative;
+    left: 20px;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}

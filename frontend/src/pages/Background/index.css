@@ -1,0 +1,11 @@
+.all-page {
+    position: absolute;
+    height: calc(100vh - 110px);
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 110px;
+    /* background-image: url(background.png); */
+
+    background-color: cadetblue;
+}

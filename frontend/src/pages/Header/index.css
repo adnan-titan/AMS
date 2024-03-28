@@ -1,0 +1,33 @@
+header {
+
+    color: aliceblue;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    /* position: fixed;
+    width: 100%; */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: auto;
+
+}
+
+.background-image {
+    opacity: 0.8;
+    /* background-image: url(" https://images.unsplash.com/photo-1508962914676-134849a727f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80 "); */
+}

@@ -1,0 +1,12 @@
+.employeeDNEError {
+    color: red;
+}
+
+.empIdInput {
+    /* width: unset */
+}
+
+.label {
+    margin-top: 16px;
+    font-size: xx-large;
+}

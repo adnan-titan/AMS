@@ -1,0 +1,23 @@
+.fillTextField {
+    width: 40%;
+    font-weight: 500;
+    font-size: 20px;
+    margin: auto;
+}
+
+.centerDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.centerDiv,
+.nowrap {}
+
+.modify-list-suggestion {
+    margin-left: 42%;
+    width: 195px;
+    position: absolute;
+    background: white;
+    /* width: 20%; */
+    margin-top: -20px;
+}

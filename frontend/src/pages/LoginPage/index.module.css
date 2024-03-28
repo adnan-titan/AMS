@@ -1,0 +1,144 @@
+.loginpage-container {
+
+
+
+
+
+
+  margin-left: 29%;
+  height: calc(100vh - 178px);
+  position: absolute;
+  /* border-radius: 10px; */
+  border: 1px solid rgb(17, 103, 201);
+  padding: 20px;
+  /* margin-top: 85px; */
+  width: 34%;
+  /* opacity: 0.8; */
+  background: darkgray;
+  text-align: center;
+
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.login-label {
+  display: block;
+  margin-bottom: 14px;
+  margin-top: 38px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.login-input {
+
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-weight: bold;
+  height: 50px;
+  text-align: center;
+}
+
+
+
+.form-center {
+
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  font-weight: bold;
+  /* height: 50px; */
+  text-align: center;
+}
+
+.form-group.form-center>.login-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  font-weight: bold;
+  /* height: 50px; */
+  text-align: center;
+
+}
+
+.btn-login {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 37px;
+
+
+}
+
+.btn-login:hover {
+  background-color: #45a049;
+}
+
+.form-center {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.whole-login {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.user-logo {
+  position: absolute;
+  margin-left: 28px;
+  margin-top: 20px;
+
+}
+
+.signup-forgot-margin {
+  margin-right: 47%;
+
+}
+
+.div-signup-forgot-margin {
+  margin-top: 10px;
+}
+
+.signup-forgot-margin-button {
+  font-weight: bold;
+
+}
+
+.login-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-weight: bold;
+  height: 50px;
+  text-align: center;
+}
+
+.center-div-container {
+  background: rgb(15, 15, 15);
+  width: 63%;
+  height: calc(100vh - 180px);
+  margin-left: 26%;
+  margin-top: 4%;
+}
+
+.policy {
+  margin-top: 79px;
+}

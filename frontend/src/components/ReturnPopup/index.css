@@ -1,0 +1,47 @@
+.return-drop-down {
+    width: 201px;
+    border-radius: 8px;
+}
+
+.field-value-radius {
+    border-radius: 8px;
+}
+
+.return-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.suggestion {
+    width: 100%
+}
+
+.list-suggestion {
+    width: 20%;
+    position: absolute;
+    background: white;
+    width: 20%;
+}
+
+.list-suggestion div li {
+    cursor: pointer;
+}
+
+.modify-list-suggestion {
+    margin-left: 42%;
+    width: 195px;
+    position: absolute;
+    background: white;
+    /* width: 20%; */
+    margin-top: -20px;
+}
+
+.email-position {
+    margin-left: 33%;
+
+}

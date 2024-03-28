@@ -1,0 +1,25 @@
+.history-table-data {
+    width: 100%;
+    height: calc(66vh - 258px);
+    /* overflow: scroll; */
+    overflow-x: hidden;
+}
+
+.record-details-page {
+
+    height: 605px;
+    position: absolute;
+    border-radius: 39px;
+    border: 1px solid rgb(17, 103, 201);
+    padding: 20px;
+    /* margin-top: 100px; */
+    /* width: 400px; */
+    /* opacity: 0.8; */
+    background: darkgray;
+    overflow: scroll;
+}
+
+.history-label {
+
+    font-size: xx-large;
+}

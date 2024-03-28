@@ -1,0 +1,90 @@
+.login-container {
+  /* ;
+    margin:  auto;
+    padding: 20px;
+    
+     */
+  max-width: 400px;
+  width: 100%;
+  position: absolute;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  border: 1px solid rgb(17, 103, 201);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  /* border-radius: 49px;
+  display: flex;
+  opacity: 0.8; */
+
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+
+
+}
+
+.return-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-login {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background-color: #45a049;
+}
+
+.select {
+  height: 30px;
+  padding: 0.5rem;
+  border-radius: 17%;
+}
+
+
+.return-container {
+  /* max-width: 400px; */
+  width: 100%;
+  position: absolute;
+  background-color: darkgray;
+  border-radius: 50px;
+  opacity: 0.8;
+  border-radius: 50px;
+  border: 1px solid rgb(17, 103, 201);
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  padding: 20px;
+  margin: auto;
+
+}
+
+.record {
+  font-weight: bold;
+}
+
+
+.inner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

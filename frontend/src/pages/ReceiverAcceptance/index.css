@@ -1,0 +1,20 @@
+.table-row-data {
+
+    width: 12%;
+    text-align: -webkit-center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-row-data.extra-width {
+    width: 19%;
+}
+
+.accept-success-message {
+    color: #137413;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+    /* margin-left: 25%; */
+    text-align: center;
+}
