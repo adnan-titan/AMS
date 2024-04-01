@@ -6,8 +6,10 @@ import com.assetManagement.entity.User;
 import com.assetManagement.repo.AssetDeviceMapRepo;
 import com.assetManagement.repo.RoleRepo;
 import com.assetManagement.repo.UserRepo;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -20,16 +22,27 @@ import java.util.*;
 @Service
 @Slf4j
 public class UserServiceImpl implements UserService, UserDetailsService {
-    @Autowired
-    UserRepo userRepo;
-    @Autowired
-    PasswordEncoder passwordEncoder;
 
-    @Autowired
-    RoleRepo roleRepo;
+    private final UserRepo userRepo;
+    /*@Autowired
+    PasswordEncoder passwordEncoder;*/
 
-    @Autowired
-    AssetDeviceMapRepo assetDeviceMapRepo;
+    private  final PasswordEncoder passwordEncoder;
+
+    private final RoleRepo roleRepo;
+
+
+    private final AssetDeviceMapRepo assetDeviceMapRepo;
+
+    public UserServiceImpl(@Lazy UserRepo userRepo, @Lazy PasswordEncoder passwordEncoder, RoleRepo roleRepo, AssetDeviceMapRepo assetDeviceMapRepo) {
+        this.userRepo = userRepo;
+        this.passwordEncoder = passwordEncoder;
+        this.roleRepo = roleRepo;
+        this.assetDeviceMapRepo = assetDeviceMapRepo;
+    }
+
+
+
     @Override
     public void addEmployee(User user) {
 
