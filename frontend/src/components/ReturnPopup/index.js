@@ -29,10 +29,11 @@ const ReturnPopup = (props) => {
     //     // headers: {'X-Custom-Header': 'foobar'}
     // });
     const axiosInstance = axios.create({
-        baseURL: 'http://localhost:8080/',
+        // baseURL: 'http://localhost:8080/',
         //  baseURL: 'http://assetmanagement-backend-env.eba-js2mgz8w.ap-south-1.elasticbeanstalk.com/'
         // timeout: 1000,
         // headers: {'X-Custom-Header': 'foobar'}
+        baseURL: 'http://10.0.46.75:8080/',
     });
     const [employeeDetails, setEmployeeDetails] = useState({
         employeeId: "",
