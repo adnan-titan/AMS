@@ -35,9 +35,10 @@ const DistributePopup = (props) => {
     //     // headers: {'X-Custom-Header': 'foobar'}
     // });
     const axiosInstance = axios.create({
-        baseURL: 'http://localhost:8080/',
+        //baseURL: 'http://localhost:8080/',
         // timeout: 1000,
         // headers: {'X-Custom-Header': 'foobar'}
+        baseURL: 'http://10.0.46.75:8080/',
     });
     useEffect(() => {
         console.log("to get all employee");

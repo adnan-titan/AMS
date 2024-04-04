@@ -64,8 +64,9 @@ const UserView = () => {
     //     // headers: {'X-Custom-Header': 'foobar'}
     // });
     const axiosInstance = axios.create({
-        baseURL: 'http://localhost:8080/',
+        // baseURL: 'http://localhost:8080/',
         // timeout: 1000,
+        baseURL: 'http://10.0.46.75:8080/',
     });
     console.log(sessionStorage.getItem("token"))
     const header = {
